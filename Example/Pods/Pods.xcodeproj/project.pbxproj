@@ -123,6 +123,15 @@
 			path = CurvedArrow;
 			sourceTree = "<group>";
 		};
+		4F218C8B270667320032D1CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F218C8727065B5C0032D1CB /* CurvedArrow */,
+				4F218C8627065B260032D1CB /* LoaderView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,8 +188,7 @@
 		BC1694E27423CF50A5713A284FF487ED /* CustomUIKitViews */ = {
 			isa = PBXGroup;
 			children = (
-				4F218C8727065B5C0032D1CB /* CurvedArrow */,
-				4F218C8627065B260032D1CB /* LoaderView */,
+				4F218C8B270667320032D1CB /* Views */,
 				83FB72303C4FC0927886695923582B9F /* Pod */,
 				C5F55CA157196836178DB662B709F2C8 /* Support Files */,
 			);
