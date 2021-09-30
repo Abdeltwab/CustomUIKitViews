@@ -14,7 +14,6 @@
 		5CD852C589638752A28170286BF1743F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		869A2DBFEA85D6D892864B76EC296F91 /* Pods-CustomUIKitViews_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDCD313E997C82941421A46F369F9FE /* Pods-CustomUIKitViews_Example-dummy.m */; };
 		A7FD5B5C162A4551400A790B161BC616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CC6E304ED6CB098F0C5889232966E03C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E9D5A77E5CBCBBA6172F2F2FC0E820 /* ReplaceMe.swift */; };
 		DA132D4D3B616EA67D11B47C12701C1E /* Pods-CustomUIKitViews_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A56ED900806E278C0A8579BCFE55F8A1 /* Pods-CustomUIKitViews_Tests-dummy.m */; };
 		DAADEA75042E10869CFB5668DFBCD06E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E620703AA65C3DF2BFBE4FA17CFCD5C6 /* CustomUIKitViews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA502FAB34FD06764BB9FB70F519A1A /* CustomUIKitViews-dummy.m */; };
@@ -44,7 +43,6 @@
 		219DB287CF2B545D46C173D4E6FBF0B6 /* Pods_CustomUIKitViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomUIKitViews_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22822B0634753C1C297C99F5AD4D893E /* Pods-CustomUIKitViews_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomUIKitViews_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		27C544D215413EE1AE8560D19E63CCFC /* Pods-CustomUIKitViews_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomUIKitViews_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		28E9D5A77E5CBCBBA6172F2F2FC0E820 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CustomUIKitViews/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		3B86F69BE92E04E07FEFD0B5D3A18164 /* Pods-CustomUIKitViews_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomUIKitViews_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3E52542CEE697EBE382D9273EEF3A1C5 /* CustomUIKitViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomUIKitViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B41560A0B7A2ADBBCDB08D11D106217 /* Pods-CustomUIKitViews_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomUIKitViews_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -183,7 +181,6 @@
 			children = (
 				4F218C8727065B5C0032D1CB /* CurvedArrow */,
 				4F218C8627065B260032D1CB /* LoaderView */,
-				28E9D5A77E5CBCBBA6172F2F2FC0E820 /* ReplaceMe.swift */,
 				83FB72303C4FC0927886695923582B9F /* Pod */,
 				C5F55CA157196836178DB662B709F2C8 /* Support Files */,
 			);
@@ -404,7 +401,6 @@
 			files = (
 				E620703AA65C3DF2BFBE4FA17CFCD5C6 /* CustomUIKitViews-dummy.m in Sources */,
 				4F218C8927065B980032D1CB /* CurvedArrow.swift in Sources */,
-				CC6E304ED6CB098F0C5889232966E03C /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
