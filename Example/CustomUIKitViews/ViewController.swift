@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import CustomUIKitViews
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let rect = CGRect(x: 20, y: 20, width: 400, height: 400)
+       // let cv = CurvedArrow(frame: rect, arrowsCount: 2, lineWidth: 10, radius: 50)
+        let cv = CurvedArrow(frame: rect)
+        view.addSubview(cv)
     }
 
     override func didReceiveMemoryWarning() {

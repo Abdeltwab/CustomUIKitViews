@@ -7,21 +7,29 @@
 
 import UIKit
 
-class CurvedArrow: UIView {
+public class CurvedArrow: UIView {
     // MARK: - Variables
 
     private let containerLayer = CAShapeLayer()
     private var startAngle = CGFloat()
     private var endAngle = CGFloat()
     private var arrowDirection = false
-    var arrowsCount = 0
-    var lineWidth = 0
+    public var arrowsCount = 2
+    public var lineWidth = 5
+    public var radius = 50
 
     // MARK: - life Cycle
-
-    override init(frame: CGRect) {
+    
+    public override init(frame: CGRect) {
         super.init(frame: frame)
-        setupView()
+        self.setupView()
+    }
+
+    public init(frame: CGRect, arrowsCount:Int,lineWidth:Int,radius:Int) {
+        super.init(frame: frame)
+        self.arrowsCount = arrowsCount
+        self.lineWidth = lineWidth
+        self.setupView()
     }
 
     required init?(coder: NSCoder) {
@@ -30,6 +38,7 @@ class CurvedArrow: UIView {
 }
 
 extension CurvedArrow {
+    
     private func setupView() {
         containerLayer.frame = bounds
         addArrowsViews()
@@ -58,7 +67,7 @@ extension CurvedArrow {
 
     private func getArrowPath() -> CGPath {
         let diameter = 2 * CGFloat.pi
-        let radius = CGFloat(180)
+        let radius = CGFloat(self.radius)
         let path = UIBezierPath()
         path.addArc(withCenter: center,
                     radius: radius,
