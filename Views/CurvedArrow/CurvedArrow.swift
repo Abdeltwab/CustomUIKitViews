@@ -29,6 +29,7 @@ public class CurvedArrow: UIView {
         super.init(frame: frame)
         self.arrowsCount = arrowsCount
         self.lineWidth = lineWidth
+        self.radius  = radius
         self.setupView()
     }
 
@@ -40,7 +41,7 @@ public class CurvedArrow: UIView {
 extension CurvedArrow {
     
     private func setupView() {
-        containerLayer.frame = bounds
+        containerLayer.frame = frame
         addArrowsViews()
         layer.addSublayer(containerLayer)
     }
