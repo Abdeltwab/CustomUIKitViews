@@ -14,9 +14,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let rect = CGRect(x: 20, y: 50, width: 0, height: 0)
-        let cv = Circle(frame: rect)
+        let rect = CGRect(x: 50, y: 50, width: 0, height: 0)
+        let radius = 50
+        let loader = CurvedArrow(frame: rect, arrowsCount: 2, lineWidth: 5, radius: radius)
+        view.addSubview(loader)
+
+        let cv = Circle(frame: rect, radius: radius, color: .green)
         view.addSubview(cv)
+
+
     }
 
     override func didReceiveMemoryWarning() {

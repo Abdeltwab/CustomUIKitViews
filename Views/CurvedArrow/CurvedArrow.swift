@@ -76,7 +76,7 @@ extension CurvedArrow {
                     endAngle: diameter * endAngle,
                     clockwise: true)
         let currentPoint = path.currentPoint
-        let p = CGPoint(x: currentPoint.x, y: currentPoint.y)
+       let p = CGPoint(x: currentPoint.x, y: currentPoint.y)
         path.move(to: p)
         path.close()
         return path.cgPath
@@ -100,9 +100,10 @@ extension CurvedArrow {
         endAngle = CGFloat(Double(arrowNumber) + 0.95) / CGFloat(arrowsCount)
     }
 
+    // Not used now 
     private func getArrowCenter() -> CGPoint {
-        let center = CGPoint(x: containerLayer.bounds.width / 2,
-                             y: containerLayer.bounds.height / 2)
+        let center = CGPoint(x: 1000,
+                             y: 100)
         return center
     }
 }
