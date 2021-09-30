@@ -1,0 +1,6 @@
+framework module CustomUIKitViews {
+  umbrella header "CustomUIKitViews-umbrella.h"
+
+  export *
+  module * { export * }
+}
