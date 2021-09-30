@@ -14,9 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let rect = CGRect(x: 20, y: 20, width: 400, height: 400)
-       // let cv = CurvedArrow(frame: rect, arrowsCount: 2, lineWidth: 10, radius: 50)
-        let cv = CurvedArrow(frame: rect)
+        let rect = CGRect(x: 20, y: 50, width: 0, height: 0)
+        let cv = Circle(frame: rect)
         view.addSubview(cv)
     }
 
