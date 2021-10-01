@@ -12,6 +12,8 @@
 		401CA7A5F98E1513AF35AE91AC8CF86A /* CustomUIKitViews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A80CE98FA9335980143384FFCCF7C1 /* CustomUIKitViews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F218C8927065B980032D1CB /* CurvedArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F218C8827065B980032D1CB /* CurvedArrow.swift */; };
 		4F218C8D270673020032D1CB /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F218C8C270673020032D1CB /* Circle.swift */; };
+		4F218C90270679170032D1CB /* CheckMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F218C8F270679170032D1CB /* CheckMark.swift */; };
+		4F218C9327068B100032D1CB /* CustomeSucessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F218C9227068B100032D1CB /* CustomeSucessView.swift */; };
 		5CD852C589638752A28170286BF1743F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		869A2DBFEA85D6D892864B76EC296F91 /* Pods-CustomUIKitViews_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDCD313E997C82941421A46F369F9FE /* Pods-CustomUIKitViews_Example-dummy.m */; };
 		A7FD5B5C162A4551400A790B161BC616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -49,6 +51,8 @@
 		4B41560A0B7A2ADBBCDB08D11D106217 /* Pods-CustomUIKitViews_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomUIKitViews_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4F218C8827065B980032D1CB /* CurvedArrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedArrow.swift; sourceTree = "<group>"; };
 		4F218C8C270673020032D1CB /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		4F218C8F270679170032D1CB /* CheckMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMark.swift; sourceTree = "<group>"; };
+		4F218C9227068B100032D1CB /* CustomeSucessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeSucessView.swift; sourceTree = "<group>"; };
 		556F89AEDEA6FF0AD7444FE13580E9D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6B6A6163D20092C60ACCA52C780623C8 /* CustomUIKitViews.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CustomUIKitViews.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6DE4857E1E1E5A9386232023BE37E79E /* Pods-CustomUIKitViews_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomUIKitViews_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,13 +130,37 @@
 			path = CurvedArrow;
 			sourceTree = "<group>";
 		};
-		4F218C8B270667320032D1CB /* Views */ = {
+		4F218C8B270667320032D1CB /* ElementryViews */ = {
 			isa = PBXGroup;
 			children = (
+				4F218C8E270678FB0032D1CB /* CheckMark */,
 				4F218C8727065B5C0032D1CB /* CurvedArrow */,
 				4F218C8627065B260032D1CB /* Circel */,
 			);
-			path = Views;
+			path = ElementryViews;
+			sourceTree = "<group>";
+		};
+		4F218C8E270678FB0032D1CB /* CheckMark */ = {
+			isa = PBXGroup;
+			children = (
+				4F218C8F270679170032D1CB /* CheckMark.swift */,
+			);
+			path = CheckMark;
+			sourceTree = "<group>";
+		};
+		4F218C9127068A730032D1CB /* ComplexViews */ = {
+			isa = PBXGroup;
+			children = (
+				4F218C9227068B100032D1CB /* CustomeSucessView.swift */,
+			);
+			path = ComplexViews;
+			sourceTree = "<group>";
+		};
+		4F218C94270691B10032D1CB /* Aniamtion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Aniamtion;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -191,7 +219,9 @@
 		BC1694E27423CF50A5713A284FF487ED /* CustomUIKitViews */ = {
 			isa = PBXGroup;
 			children = (
-				4F218C8B270667320032D1CB /* Views */,
+				4F218C94270691B10032D1CB /* Aniamtion */,
+				4F218C9127068A730032D1CB /* ComplexViews */,
+				4F218C8B270667320032D1CB /* ElementryViews */,
 				83FB72303C4FC0927886695923582B9F /* Pod */,
 				C5F55CA157196836178DB662B709F2C8 /* Support Files */,
 			);
@@ -410,9 +440,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F218C9327068B100032D1CB /* CustomeSucessView.swift in Sources */,
 				E620703AA65C3DF2BFBE4FA17CFCD5C6 /* CustomUIKitViews-dummy.m in Sources */,
 				4F218C8927065B980032D1CB /* CurvedArrow.swift in Sources */,
 				4F218C8D270673020032D1CB /* Circle.swift in Sources */,
+				4F218C90270679170032D1CB /* CheckMark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

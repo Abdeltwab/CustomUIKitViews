@@ -5,11 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/CustomUIKitViews.svg?style=flat)](https://cocoapods.org/pods/CustomUIKitViews)
 [![Platform](https://img.shields.io/cocoapods/p/CustomUIKitViews.svg?style=flat)](https://cocoapods.org/pods/CustomUIKitViews) -->
 
-## Example
+## Installation
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+CustomUIKitViews is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
-## Requirements
+```ruby
+pod 'CustomUIKitViews' , tag: '0.1.0'
+```
+
 
 ## Installation
 
@@ -17,12 +21,10 @@ CustomUIKitViews is available through [CocoaPods](https://cocoapods.org). To ins
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'CustomUIKitViews'
+pod 'CustomUIKitViews' , tag: '0.1.0'
 ```
 
-## Author
 
-Abdeltwab, Abdeltwab.elhussin@gmail.com
 
 ## License
 
