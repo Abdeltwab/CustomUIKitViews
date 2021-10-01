@@ -11,7 +11,7 @@ public class CheckMark: UIView {
 
     private let containerLayer = CAShapeLayer()
     public var radius = 50
-    public var color = UIColor.white
+    public var color = UIColor.red
 
     // MARK: - life Cycle
     
