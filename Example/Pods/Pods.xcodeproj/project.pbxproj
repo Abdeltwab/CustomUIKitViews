@@ -128,14 +128,14 @@
 			path = CurvedArrow;
 			sourceTree = "<group>";
 		};
-		4F218C8B270667320032D1CB /* Views */ = {
+		4F218C8B270667320032D1CB /* ElementryViews */ = {
 			isa = PBXGroup;
 			children = (
 				4F218C8E270678FB0032D1CB /* CheckMark */,
 				4F218C8727065B5C0032D1CB /* CurvedArrow */,
 				4F218C8627065B260032D1CB /* Circel */,
 			);
-			path = Views;
+			path = ElementryViews;
 			sourceTree = "<group>";
 		};
 		4F218C8E270678FB0032D1CB /* CheckMark */ = {
@@ -202,7 +202,7 @@
 		BC1694E27423CF50A5713A284FF487ED /* CustomUIKitViews */ = {
 			isa = PBXGroup;
 			children = (
-				4F218C8B270667320032D1CB /* Views */,
+				4F218C8B270667320032D1CB /* ElementryViews */,
 				83FB72303C4FC0927886695923582B9F /* Pod */,
 				C5F55CA157196836178DB662B709F2C8 /* Support Files */,
 			);
